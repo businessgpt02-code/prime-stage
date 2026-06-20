@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sage-50: #F4F6F4;
+  --color-sage-100: #E6EAE6;
+  --color-sage-200: #C7D1C9;
+  --color-sage-300: #A4B4A7;
+  --color-sage-400: #849A88;
+  --color-sage-500: #64806A;
+  --color-sage-600: #4D6452;
+  --color-sage-700: #3D5041;
+  --color-sage-800: #324035;
+  --color-sage-900: #2A342B;
+  
+  --color-beige-50: #FDFBF7;
+  --color-beige-100: #F7F3E8;
+  --color-beige-200: #EBE2CD;
+  --color-beige-300: #DED0AE;
+  --color-beige-400: #D1BD8F;
+  --color-beige-500: #C3AB71;
+  --color-beige-600: #9C885A;
+  --color-beige-700: #756643;
+  --color-beige-800: #4E442D;
+  --color-beige-900: #3D3523;
+
+  --font-sans: 'Outfit', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  --animate-marquee-left: marquee-left 40s linear infinite;
+}
+
+@keyframes marquee-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  html, body {
+    @apply bg-beige-50 text-sage-900 font-sans antialiased m-0 p-0 w-full min-h-screen overflow-x-hidden;
+  }
+}
+
+/* Custom utility classes */
+@layer utilities {
+  .glass {
+    @apply bg-beige-50/70 backdrop-blur-md border border-beige-200/50 shadow-sm;
+  }
+  .glass-sage {
+    @apply bg-sage-900/80 backdrop-blur-md border border-sage-700/50 shadow-sm;
+  }
+  .animate-marquee-left {
+    animation: marquee-left 40s linear infinite;
+  }
+}

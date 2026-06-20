@@ -46,8 +46,8 @@ const jsonLdContactPage = {
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-        opens: '09:00',
-        closes: '21:00',
+        opens: '00:00',
+        closes: '23:59',
       },
     ],
     priceRange: '$$',
@@ -105,7 +105,7 @@ const jsonLdFAQ = {
       name: 'What are the opening hours of Prime Stage DXB?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We are open daily (Monday to Sunday) from 9:00 AM to 9:00 PM.',
+        text: 'We are open daily (Monday to Sunday) all day.',
       },
     },
     {
@@ -333,7 +333,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-bold text-sage-900 mb-1">Business Hours</h3>
                         <p className="text-sage-600">
-                          <time dateTime="Mo-Su 09:00-21:00">Open Daily: 9:00 AM – 9:00 PM</time>
+                          <time dateTime="Mo-Su 00:00-24:00">Open Daily: All Day</time>
                         </p>
                       </div>
                     </div>

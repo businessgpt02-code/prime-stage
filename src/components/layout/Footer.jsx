@@ -44,11 +44,11 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-xl text-sage-900 mb-6">Experiences</h4>
             <ul className="space-y-4">
-              <li><a href="#" className="text-sage-700 hover:text-sage-900 transition-colors">Music & DJing</a></li>
-              <li><a href="#" className="text-sage-700 hover:text-sage-900 transition-colors">Art Workshops</a></li>
-              <li><a href="#" className="text-sage-700 hover:text-sage-900 transition-colors">Dance Classes</a></li>
-              <li><a href="#" className="text-sage-700 hover:text-sage-900 transition-colors">Yoga & Wellness</a></li>
-              <li><a href="#" className="text-sage-700 hover:text-sage-900 transition-colors">Sound Healing</a></li>
+              <li><a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20inquire%20about%20Music%20%26%20DJing" target="_blank" rel="noopener noreferrer" className="text-sage-700 hover:text-sage-900 transition-colors">Music & DJing</a></li>
+              <li><a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20inquire%20about%20Art%20Workshops" target="_blank" rel="noopener noreferrer" className="text-sage-700 hover:text-sage-900 transition-colors">Art Workshops</a></li>
+              <li><a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20inquire%20about%20Dance%20Classes" target="_blank" rel="noopener noreferrer" className="text-sage-700 hover:text-sage-900 transition-colors">Dance Classes</a></li>
+              <li><a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20inquire%20about%20Yoga%20%26%20Wellness" target="_blank" rel="noopener noreferrer" className="text-sage-700 hover:text-sage-900 transition-colors">Yoga & Wellness</a></li>
+              <li><a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20inquire%20about%20Sound%20Healing" target="_blank" rel="noopener noreferrer" className="text-sage-700 hover:text-sage-900 transition-colors">Sound Healing</a></li>
             </ul>
           </div>
 

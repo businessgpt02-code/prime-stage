@@ -7,26 +7,6 @@ import CoreValues from '../components/about/CoreValues';
 
 
 const About = () => {
-  const instructors = [
-    {
-      name: "Elena Rostova",
-      specialty: "Fine Arts & Ceramics Mentor",
-      bio: "An accomplished visual artist with over 10 years of experience, Elena specializes in texture art, ceramics, and mosaic structures.",
-      initial: "E"
-    },
-    {
-      name: "Marcus Vance",
-      specialty: "Lead DJ & Music Producer",
-      bio: "A regular in Dubai's premium music scene, Marcus teaches music production and DJing, helping students find their unique sound.",
-      initial: "M"
-    },
-    {
-      name: "Sarah Jenkins",
-      specialty: "Yoga & Sound Healing Practitioner",
-      bio: "Certified therapist in sound medicine and vinyasa yoga, dedicated to restoring mental and physical balance.",
-      initial: "S"
-    }
-  ];
 
   return (
     <div className="w-full bg-beige-50">
@@ -296,42 +276,6 @@ const About = () => {
 
       {/* Core Values Section */}
       <CoreValues />
-
-
-      {/* Instructors Section */}
-      <section className="pt-6 pb-24 bg-beige-100/50">
-        <div className="max-w-7xl mx-auto px-6 md:px-12">
-          <div className="text-center mb-16">
-            <SectionHeading 
-              subtitle="Meet Our Team" 
-              title="Expert Instructors & Guides" 
-            />
-            <p className="text-sage-700 max-w-2xl mx-auto mt-4 text-lg">
-              Our team consists of industry professionals, renowned artists, and certified wellness practitioners dedicated to guiding your journey.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {instructors.map((inst, i) => (
-              <motion.div 
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-20px" }}
-                transition={{ duration: 0.6, delay: i * 0.1 }}
-                className="group bg-beige-50 rounded-3xl p-8 border border-beige-200 hover:shadow-md transition-all duration-300"
-              >
-                <div className="w-20 h-20 rounded-full bg-sage-300 flex items-center justify-center text-sage-800 font-serif text-3xl mb-6 shadow-inner">
-                  {inst.initial}
-                </div>
-                <h4 className="font-serif text-2xl text-sage-900 mb-1">{inst.name}</h4>
-                <p className="text-sage-500 font-medium text-sm mb-4 uppercase tracking-wider">{inst.specialty}</p>
-                <p className="text-sage-600 leading-relaxed text-sm">{inst.bio}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section 

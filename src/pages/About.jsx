@@ -4,6 +4,7 @@ import SectionHeading from '../components/ui/SectionHeading';
 import Button from '../components/ui/Button';
 import MissionVision from '../components/about/MissionVision';
 import CoreValues from '../components/about/CoreValues';
+import Team from '../components/about/Team';
 
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "AboutPage",
-          "name": "About Prime Stage DXB | Creative & Wellness Sanctuary Dubai",
+          "name": "About Prime Stage DXB | Creative & Wellness Space Dubai",
           "description": "Learn about Prime Stage DXB, Dubai's premier creative wellness studio. Offering elite music production, art workshops, dance classes, yoga, and sound healing.",
           "publisher": {
             "@type": "Organization",
@@ -28,7 +29,7 @@ const About = () => {
           "mainEntity": {
             "@type": "WellnessCenter",
             "name": "Prime Stage DXB",
-            "description": "Dubai's premier sanctuary uniting music production, art workshops, dance classes, yoga, and sound healing under one roof.",
+            "description": "Dubai's premier space uniting music production, art workshops, dance classes, yoga, and sound healing under one roof.",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Al Ghazal Mall",
@@ -42,7 +43,7 @@ const About = () => {
               "Contemporary & Hip Hop Dance",
               "Yoga & Meditation Classes",
               "Sound Healing Therapies",
-              "Holistic Wellbeing"
+              "General Wellbeing"
             ]
           }
         })}
@@ -51,13 +52,13 @@ const About = () => {
       {/* Hero Section */}
       <section 
         className="relative min-h-[60vh] md:min-h-[70vh] flex items-center justify-center pt-24 pb-16 md:pb-24 overflow-hidden isolate"
-        aria-label="About Prime Stage DXB - Dubai's Premium Creative & Wellness Hub"
+        aria-label="About Prime Stage DXB - Dubai's Creative & Wellness Hub"
       >
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 -z-10 bg-black">
           <img 
             src="/about/herosection.png" 
-            alt="Inside Prime Stage DXB wellness and creative classes sanctuary in Dubai" 
+            alt="Inside Prime Stage DXB wellness and creative classes space in Dubai" 
             className="w-full h-full object-cover opacity-50"
           />
           {/* Neutral dark overlay to dim the background evenly */}
@@ -71,7 +72,7 @@ const About = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="mb-6 px-4 py-1.5 rounded-full border border-[#E8DDCF]/20 bg-black/40 backdrop-blur-sm text-[#E8DDCF] text-sm font-medium tracking-wide inline-block"
           >
-            Dubai's Premium Creative & Wellness Space
+            Dubai's Creative & Wellness Space
           </motion.div>
           
           <motion.h1 
@@ -93,8 +94,8 @@ const About = () => {
             style={{ textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}
           >
             Nestled in the vibrant heart of <strong className="text-[#F5EFE7] font-semibold">Al Ghazal Mall, Dubai</strong>, 
-            <strong className="text-[#F5EFE7] font-semibold"> Prime Stage DXB</strong> is a state-of-the-art sanctuary dedicated to 
-            blending modern music production, fine art workshops, dynamic dance styles, and holistic wellness classes (yoga, meditation, and sound healing) under one luxury roof.
+            <strong className="text-[#F5EFE7] font-semibold"> Prime Stage DXB</strong> is a state-of-the-art space dedicated to 
+            blending modern music production, fine art workshops, dynamic dance styles, and wellness classes (yoga, meditation, and sound healing) under one luxury roof.
           </motion.p>
         </div>
       </section>
@@ -197,10 +198,10 @@ const About = () => {
                 
                 <div className="space-y-6 text-lg text-sage-700 leading-relaxed" itemProp="description">
                   <p>
-                    <strong className="text-sage-900">Prime Stage DXB</strong> was born from a vision to create more than a studio — a luxury wellness center and creative sanctuary in Dubai where self-expression flourishes, physical health is nurtured, and individuals feel inspired to grow.
+                    <strong className="text-sage-900">Prime Stage DXB</strong> was born from a vision to create more than a studio — a luxury wellness center and creative space in Dubai where self-expression flourishes, physical health is nurtured, and individuals feel inspired to grow.
                   </p>
                   <p>
-                    Our multi-disciplinary ecosystem unites professional music production & DJ courses, hands-on fine art and ceramics workshops, contemporary dance classes, and holistic yoga & sound healing sessions under one premium roof.
+                    Our multi-disciplinary ecosystem unites professional music production & DJ courses, hands-on fine art and ceramics workshops, contemporary dance classes, and yoga & sound healing sessions under one roof.
                   </p>
                   <p>
                     Every class, workshop, and creative program we host is thoughtfully designed to build self-confidence, spark deep imagination, and help you find structural balance and mindfulness in modern everyday life.
@@ -224,7 +225,7 @@ const About = () => {
                 )
               },
               {
-                title: "Holistic Wellness & Yoga",
+                title: "Wellness & Yoga",
                 desc: "Nurture your body and mind with sound healing therapies, vinyasa and yin yoga classes, calisthenics programs, and guided meditation circles.",
                 icon: (
                   <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-sage-600">
@@ -235,7 +236,7 @@ const About = () => {
               },
               {
                 title: "Dubai's Creative Community",
-                desc: "Join a warm, inclusive sanctuary designed for both beginners and experts to collaborate, connect, and elevate their creative lifestyle in Dubai.",
+                desc: "Join a warm, inclusive space designed for both beginners and experts to collaborate, connect, and elevate their creative lifestyle in Dubai.",
                 icon: (
                   <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-sage-600">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -276,6 +277,9 @@ const About = () => {
 
       {/* Core Values Section */}
       <CoreValues />
+
+      {/* Team Section */}
+      <Team />
 
       {/* CTA Section */}
       <section 
@@ -330,7 +334,7 @@ const About = () => {
             className="text-sage-200 text-xl max-w-3xl mx-auto mb-12 leading-relaxed"
             itemProp="description"
           >
-            Ready to discover a premium sanctuary where artistic expression and mindfulness unite? Prime Stage DXB is your home for expert-guided music production & DJ courses, hands-on ceramic art workshops, contemporary dance classes, and therapeutic yoga and sound healing sessions. Whether you want to cultivate inner peace, master a new craft, or join a supportive community, we welcome all skill levels. <strong className="text-beige-200">Book a session or visit our wellness studio today.</strong>
+            Ready to discover a space where artistic expression and mindfulness unite? Prime Stage DXB is your home for expert-guided music production & DJ courses, hands-on ceramic art workshops, contemporary dance classes, and therapeutic yoga and sound healing sessions. Whether you want to cultivate inner peace, master a new craft, or join a supportive community, we welcome all skill levels. <strong className="text-beige-200">Book a session or visit our wellness studio today.</strong>
           </motion.p>
 
           {/* CTA Buttons */}
@@ -364,7 +368,7 @@ const About = () => {
             {[
               "👥 Expert Group & Private Classes",
               "✨ Beginner-Friendly Workshops",
-              "🌿 Premium Art & Yoga Facilities",
+              "🌿 Top-tier Art & Yoga Facilities",
             ].map((item, i) => (
               <span key={i} className="text-sage-400 text-sm tracking-wide">{item}</span>
             ))}

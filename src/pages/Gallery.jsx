@@ -100,7 +100,7 @@ const galleryItems = [
   // Wellness (3 images)
   { id: 12, category: 'Wellness',image: '/wellness/yoga.png',  alt: 'Yoga and meditation wellness class at Prime Stage DXB Dubai' },
   { id: 13, category: 'Wellness',image: '/wellness/yoga1.png', alt: 'Sound healing therapy session at Prime Stage DXB Dubai wellness hub' },
-  { id: 14, category: 'Wellness',image: '/wellness/yoga2.png', alt: 'Holistic meditation and yoga practice at Prime Stage DXB Dubai' },
+  { id: 14, category: 'Wellness',image: '/wellness/yoga2.png', alt: 'Mindful meditation and yoga practice at Prime Stage DXB Dubai' },
 ];
 
 const Gallery = () => {
@@ -396,7 +396,7 @@ const Gallery = () => {
               className="text-sage-200 text-xl max-w-3xl mx-auto mb-12 leading-relaxed"
               itemProp="description"
             >
-              Ready to discover a premium sanctuary where artistic expression and mindfulness unite? Prime Stage DXB is your home for expert-guided music production & DJ courses, hands-on ceramic art workshops, contemporary dance classes, and therapeutic yoga and sound healing sessions. Whether you want to cultivate inner peace, master a new craft, or join a supportive community, we welcome all skill levels. <strong className="text-beige-200">Book a session or visit our wellness studio today.</strong>
+              Ready to discover a space where artistic expression and mindfulness unite? Prime Stage DXB is your home for expert-guided music production & DJ courses, hands-on ceramic art workshops, contemporary dance classes, and therapeutic yoga and sound healing sessions. Whether you want to cultivate inner peace, master a new craft, or join a supportive community, we welcome all skill levels. <strong className="text-beige-200">Book a session or visit our wellness studio today.</strong>
             </motion.p>
 
             {/* CTA Buttons */}
@@ -426,7 +426,7 @@ const Gallery = () => {
               {[
                 "👥 Expert Group & Private Classes",
                 "✨ Beginner-Friendly Workshops",
-                "🌿 Premium Art & Yoga Facilities",
+                "🌿 Top-tier Art & Yoga Facilities",
               ].map((item, i) => (
                 <span key={i} className="text-sage-400 text-sm tracking-wide">{item}</span>
               ))}

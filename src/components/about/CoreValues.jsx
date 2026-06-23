@@ -53,7 +53,7 @@ const CoreValues = () => {
       id: 'wellness',
       title: 'Wellness',
       subtitle: 'OUR WELLNESS',
-      desc: 'We nurture mental, physical, and emotional wellbeing through holistic practices designed for modern living.',
+      desc: 'We nurture mental, physical, and emotional wellbeing through wellness practices designed for modern living.',
       shapeClass: 'rounded-t-full rounded-b-[40px]',
       shapeClassHover: 'group-hover:rounded-t-[80px] group-hover:rounded-b-[80px]',
       colorClass: 'from-[#A7B8A5]/5 via-[#E8DDCF]/10 to-[#F5EFE7]/5',

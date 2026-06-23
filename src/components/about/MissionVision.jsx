@@ -72,7 +72,7 @@ const MissionVision = () => {
 
               <h3 className="font-serif text-4xl text-[#7A8F7B] mb-6">Our Mission</h3>
               <p className="text-[#7A8F7B]/90 text-lg leading-relaxed">
-                To create a welcoming sanctuary in Dubai where music production, fine art workshops, contemporary dance, and holistic wellness come together, empowering individuals to explore their passions, find inner physical balance, and embrace lifelong growth.
+                To create a welcoming space in Dubai where music production, fine art workshops, contemporary dance, and wellness come together, empowering individuals to explore their passions, find inner physical balance, and embrace lifelong growth.
               </p>
             </div>
           </motion.div>
@@ -127,7 +127,7 @@ const MissionVision = () => {
 
               <h3 className="font-serif text-4xl text-[#7A8F7B] mb-6">Our Vision</h3>
               <p className="text-[#7A8F7B]/90 text-lg leading-relaxed">
-                To stand as Dubai's premier destination for creative expression and holistic wellbeing, inspiring a vibrant community where every individual is encouraged to create fearlessly, practice yoga mindfully, and live with clarity.
+                To stand as Dubai's premier destination for creative expression and wellbeing, inspiring a vibrant community where every individual is encouraged to create fearlessly, practice yoga mindfully, and live with clarity.
               </p>
             </div>
           </motion.div>
@@ -143,7 +143,7 @@ const MissionVision = () => {
             },
             {
               title: "Wellness",
-              desc: "Encouraging mindfulness, balance, and holistic health."
+              desc: "Encouraging mindfulness, balance, and healthy living."
             },
             {
               title: "Community",

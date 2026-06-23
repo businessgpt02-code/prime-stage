@@ -20,7 +20,7 @@ const Home = () => {
       title: "Art",
       description: "Express yourself through painting, ceramics, mosaic, and paper mache.",
       icon: <Palette size={32} className="text-sage-600" />,
-      features: ["Painting & Ceramics", "Texture & Mosaic Art", "String & Thread Art", "Paper Mache"],
+      features: ["Painting", "Ceramics", "Texture", "Mosaic Art", "String", "Thread Art", "Paper Mache"],
       bgImage: "/services/art.png",
       timing: "10:00 AM – 6:00 PM"
     },
@@ -28,15 +28,15 @@ const Home = () => {
       title: "Dance",
       description: "Move your body with energetic routines across various popular styles.",
       icon: <User size={32} className="text-sage-600" />,
-      features: ["Hip Hop & K-Pop", "Afro & Jive", "Bollywood"],
+      features: ["Hip Hop", "K-Pop", "Afro", "Jive", "Bollywood"],
       bgImage: "/services/dance.png",
       timing: "5:00 PM – 10:00 PM"
     },
     {
       title: "Wellness",
-      description: "Find your center with holistic practices for mind, body, and soul.",
+      description: "Find your center with wellness practices for mind, body, and soul.",
       icon: <Heart size={32} className="text-sage-600" />,
-      features: ["Yoga & Meditation", "Calisthenics", "Sound Healing"],
+      features: ["Yoga", "Meditation", "Calisthenics", "Sound Healing"],
       bgImage: "/services/wellness.png",
       timing: "5:00 AM – 9:00 PM"
     }
@@ -58,7 +58,7 @@ const Home = () => {
           "@context": "https://schema.org",
           "@type": "WellnessCenter",
           "name": "Prime Stage DXB",
-          "description": "Premium wellness and creative hub in Dubai offering music production, art workshops, dance classes, sound healing, and yoga.",
+          "description": "A wellness and creative hub in Dubai offering music production, art workshops, dance classes, sound healing, and yoga.",
           "url": "https://primestagedxb.com",
           "telephone": "+971543867889",
           "address": {
@@ -120,7 +120,7 @@ const Home = () => {
             className="text-lg md:text-xl text-[#F5EFE7]/90 max-w-3xl mb-10"
             style={{ textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}
           >
-            Discover Dubai's leading creative sanctuary. We blend holistic wellness with creative arts, offering expert-led music production and DJ classes, multi-medium art workshops, diverse dance classes, and therapeutic sound healing & yoga in Dubai.
+            Discover Dubai's leading creative space. We blend wellness with creative arts, offering expert-led music production and DJ classes, multi-medium art workshops, diverse dance classes, and therapeutic sound healing & yoga in Dubai.
           </motion.p>
           
           <motion.div 
@@ -168,7 +168,7 @@ const Home = () => {
             <div className="flex flex-col items-start text-left">
               <SectionHeading 
                 subtitle="Who We Are" 
-                title="Dubai's Premium Creative Hub & Holistic Wellness Studio" 
+                title="Dubai's Creative Hub & Wellness Studio" 
                 align="left"
                 className="mb-8"
               />
@@ -176,7 +176,7 @@ const Home = () => {
                 <strong>Prime Stage DXB</strong> is Dubai's multi-disciplinary ecosystem where physical wellness and creative expression unite. Located in Dubai, our community space is dedicated to helping individuals discover balance through mindfulness, movement, and art.
               </p>
               <p className="text-sage-700 text-lg mb-8 leading-relaxed">
-                We bridge the gap between creative arts and holistic health. Whether you are looking to master music production, join a hands-on art workshop, learn contemporary dance choreography, or experience meditative sound healing, our luxury wellness center offers a welcoming, beginner-friendly space designed to elevate your mind, body, and soul.
+                We bridge the gap between creative arts and health. Whether you are looking to master music production, join a hands-on art workshop, learn contemporary dance choreography, or experience meditative sound healing, our luxury wellness center offers a welcoming, beginner-friendly space designed to elevate your mind, body, and soul.
               </p>
               <Link to="/about">
                 <Button variant="primary" className="bg-[#7A8F7B] hover:bg-[#A7B8A5] border-2 border-transparent">
@@ -303,15 +303,15 @@ const Home = () => {
               },
               {
                 num: "02",
-                title: "Premium Creative & Wellness Studios",
+                title: "Creative & Wellness Studios",
                 description: "Our studio space features professional-grade music production tools, dedicated texture art and ceramics workspaces, spacious dance studios, and calming yoga & sound healing spaces.",
                 tag: "Elite Space"
               },
               {
                 num: "03",
-                title: "Holistic Mind, Body & Soul Programming",
+                title: "Mind, Body & Soul Programming",
                 description: "We fuse active creative expression (music, art, dance) with therapeutic wellness practices (vinyasa yoga, calisthenics, sound healing) to support complete mental and physical balance.",
-                tag: "Holistic Wellness"
+                tag: "Wellness"
               },
               {
                 num: "04",
@@ -328,7 +328,7 @@ const Home = () => {
               {
                 num: "06",
                 title: "A Vibrant Creative Wellness Community",
-                description: "More than a standard gym or studio space, Prime Stage DXB is a premium Dubai collective where like-minded creatives and wellness seekers connect, share, and grow.",
+                description: "More than a standard gym or studio space, Prime Stage DXB is a creative Dubai collective where like-minded creatives and wellness seekers connect, share, and grow.",
                 tag: "Dubai Community"
               },
             ].map((item, i) => (
@@ -403,7 +403,7 @@ const Home = () => {
               { name: "Ahmed Al Farsi", role: "Calisthenics", review: "Incredible facility and world-class coaching. My fitness journey has never been more consistent or more enjoyable." },
               { name: "Nour Hassan", role: "Art Member", review: "The mosaic and texture art workshops pushed my creativity to new heights. The space itself is so calming and inspiring." },
               { name: "Isabelle Morel", role: "K-Pop Dance", review: "I've been to many dance studios but Prime Stage has a special vibe. The K-Pop classes are so professionally taught." },
-              { name: "Rayan Saleh", role: "Music Production", review: "Booking sessions here was the best decision I made this year. The studio is premium and the instructors are genuinely passionate." },
+              { name: "Rayan Saleh", role: "Music Production", review: "Booking sessions here was the best decision I made this year. The studio is top-tier and the instructors are genuinely passionate." },
               { name: "Amira Joubran", role: "Wellness Member", review: "Prime Stage gave me the balance I was missing. Between yoga, sound healing, and the art classes — I feel whole again." },
               { name: "Daniel Park", role: "Afro Dance", review: "The Afro dance classes are high energy and incredibly well-structured. I look forward to every single session." },
               { name: "Fatima Al Zaabi", role: "String Art", review: "String art was completely new to me and now I'm hooked. The instructors make you feel like an artist from day one." },

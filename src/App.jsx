@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Calendar from './pages/Calendar';
+import Explore from './pages/Explore';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/calendar" element={<Calendar />} />
+            <Route path="/explore" element={<Explore />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

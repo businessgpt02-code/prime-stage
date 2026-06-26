@@ -19,6 +19,7 @@ const workshops = [
     subtitle: 'Music Production & Mixing',
     poster: '/posters/1.png',
     category: 'Music',
+    thumbnailPosition: 'center 35%',
     duration: '2 hours',
     level: 'Beginner \u2013 Intermediate',
     groupSize: 'Up to 8',
@@ -181,11 +182,168 @@ const workshops = [
     whatsapp:
       'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20String%20Art%20workshop',
   },
+  // ── Dance workshops ──
+  {
+    id: 'hiphop-advanced',
+    title: 'Hip-Hop Advanced',
+    subtitle: 'Advanced Techniques & Freestyle',
+    poster: '/posters/9.png',
+    category: 'Dance',
+    duration: '1 hour',
+    level: 'Advanced',
+    groupSize: 'Up to 12',
+    rating: '5.0',
+    color: '#C06040',
+    description:
+      'Master advanced hip-hop techniques, musicality, performance, and freestyle while building confidence, strength, and stage presence.',
+    highlights: [
+      'Twice a Week',
+      'Tue: 8 PM – 9 PM',
+      'Thu: 8 PM – 9 PM',
+    ],
+    whatsapp:
+      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Hip-Hop%20Advanced%20class',
+  },
+  {
+    id: 'bollywood',
+    title: 'Bollywood Dance',
+    subtitle: 'Expressive & Energetic Choreography',
+    poster: '/posters/11.png',
+    thumbnailPosition: 'center 18%',
+    category: 'Dance',
+    duration: '1 hour',
+    level: 'Beginner Friendly',
+    groupSize: 'Up to 14',
+    rating: '4.9',
+    color: '#C06040',
+    description:
+      'Discover the beauty of Bollywood dance through expressive movements, graceful techniques, and energetic choreography in a fun, beginner-friendly class.',
+    highlights: [
+      'Twice a Week',
+      'Wed: 7 PM – 8 PM',
+      'Thu: 7 PM – 8 PM',
+    ],
+    whatsapp:
+      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Bollywood%20Dance%20class',
+  },
+  {
+    id: 'hiphop-beginner',
+    title: 'Adult Hip-Hop Beginner',
+    subtitle: 'Foundational Moves & Rhythm',
+    poster: '/posters/13.png',
+    thumbnailPosition: 'center 35%',
+    category: 'Dance',
+    duration: '1 hour',
+    level: 'Beginner',
+    groupSize: 'Up to 14',
+    rating: '4.9',
+    color: '#C06040',
+    description:
+      'Build confidence, rhythm, and freestyle skills while learning foundational hip-hop moves in a fun, high-energy environment.',
+    highlights: [
+      'Twice a Week',
+      'Wednesday: 8 PM – 9 PM',
+      'Friday: 7 PM – 8 PM',
+    ],
+    whatsapp:
+      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Adult%20Hip-Hop%20Beginner%20class',
+  },
+  {
+    id: 'kids-hiphop-1',
+    title: 'Kids Hip-Hop I',
+    subtitle: 'Rhythm, Coordination & Creativity',
+    poster: '/posters/12.png',
+    category: 'Dance',
+    duration: '1 hour',
+    level: 'Kids',
+    groupSize: 'Up to 15',
+    rating: '5.0',
+    color: '#C06040',
+    description:
+      'Fun, energetic hip-hop classes where kids build rhythm, coordination, confidence, and creativity through exciting choreography.',
+    highlights: [
+      'Twice a Week',
+      'Tuesday: 6 PM – 7 PM',
+      'Friday: 6 PM – 7 PM',
+    ],
+    whatsapp:
+      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20Kids%20Hip-Hop%20I',
+  },
+  {
+    id: 'kids-hiphop-2',
+    title: 'Kids Hip-Hop II',
+    subtitle: 'Dance Routines & Confidence',
+    poster: '/posters/15.png',
+    thumbnailPosition: 'center 25%',
+    category: 'Dance',
+    duration: '1 hour',
+    level: 'Kids',
+    groupSize: 'Up to 15',
+    rating: '5.0',
+    color: '#C06040',
+    description:
+      'A fun, energetic hip-hop program where kids develop rhythm, confidence, coordination, and creativity through exciting dance routines.',
+    highlights: [
+      'Twice a Week',
+      'Tuesday: 6 PM – 7 PM',
+      'Friday: 6 PM – 7 PM',
+    ],
+    whatsapp:
+      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20Kids%20Hip-Hop%20II',
+  },
+  {
+    id: 'jive',
+    title: 'Jive',
+    subtitle: 'Partner Footwork & Social Dance',
+    poster: '/posters/14.png',
+    category: 'Dance',
+    duration: '1 hour',
+    level: 'Beginner',
+    groupSize: 'Up to 12',
+    rating: '4.8',
+    color: '#C06040',
+    description:
+      'Learn the timeless art of Jive with energetic footwork, partner techniques, and fun social dance routines for beginners.',
+    highlights: [
+      'Twice a Week',
+      'Wednesday: 7 PM – 8 PM',
+      'Saturday: 4 PM – 5 PM',
+    ],
+    whatsapp:
+      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Jive%20class',
+  },
+  {
+    id: 'afro-dance',
+    title: 'Afro Dance',
+    subtitle: 'Rhythm, Energy & Expression',
+    poster: '/posters/16.png',
+    category: 'Dance',
+    duration: '1 hour',
+    level: 'All Levels',
+    groupSize: 'Up to 14',
+    rating: '4.9',
+    color: '#C06040',
+    description:
+      'Experience the energy of Afro Dance while building rhythm, coordination, confidence, and expressive movement in every class.',
+    highlights: [
+      'Twice a Week',
+      'Wednesday: 9 PM – 10 PM',
+      'Friday: 8 PM – 9 PM',
+    ],
+    whatsapp:
+      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Afro%20Dance%20class',
+  },
 ];
 
 const categoryStyles = {
   Art: 'bg-beige-200 text-beige-900',
   Music: 'bg-sage-200 text-sage-900',
+  Dance: 'bg-orange-100 text-orange-900',
+};
+
+const categoryPricing = {
+  Art: ['AED 140 per session', 'AED 950 for 8 sessions'],
+  Dance: ['AED 600 for 8 sessions'],
 };
 
 /* ---- Reusable poster thumbnail button ---- */
@@ -196,7 +354,7 @@ function PosterButton({ w, activeId, setActiveId }) {
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
       className={[
-        'group relative rounded-2xl overflow-hidden flex-shrink-0 w-[155px] lg:w-full transition-all duration-300 cursor-pointer text-left',
+        'group relative rounded-2xl overflow-hidden flex-shrink-0 w-[155px] lg:w-full lg:h-[78px] xl:h-[82px] transition-all duration-300 cursor-pointer text-left',
         'outline-none focus-visible:ring-2 focus-visible:ring-sage-500',
         activeId === w.id
           ? 'ring-2 ring-sage-700 shadow-xl'
@@ -205,11 +363,12 @@ function PosterButton({ w, activeId, setActiveId }) {
       aria-label={'View ' + w.title + ' workshop'}
       aria-pressed={activeId === w.id}
     >
-      <div className="aspect-[3/4] w-full overflow-hidden">
+      <div className="aspect-[3/4] lg:aspect-auto lg:h-full w-full overflow-hidden">
         <img
-          src={w.poster}
+          src={w.thumbnailPoster ?? w.poster}
           alt={w.title + ' workshop poster'}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          style={{ objectPosition: w.thumbnailPosition ?? 'center' }}
           loading="lazy"
         />
       </div>
@@ -338,7 +497,7 @@ export default function Explore() {
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
 
             {/* LEFT: Poster thumbnails */}
-            <aside className="w-full lg:w-[290px] xl:w-[310px] flex-shrink-0 lg:sticky lg:top-28">
+            <aside className="w-full lg:w-[290px] xl:w-[310px] flex-shrink-0 lg:pr-2">
               <p className="text-xs font-semibold uppercase tracking-widest text-sage-500 mb-4 px-1">
                 Select a Workshop
               </p>
@@ -357,7 +516,7 @@ export default function Explore() {
               </div>
 
               {/* ── Art section ── */}
-              <div>
+              <div className="mb-5">
                 <div className="flex items-center gap-2 mb-3 px-1">
                   <span className="text-[10px] font-bold uppercase tracking-widest text-sage-400">Art</span>
                   <div className="flex-1 h-px bg-sage-200" />
@@ -368,10 +527,23 @@ export default function Explore() {
                   ))}
                 </div>
               </div>
+
+              {/* ── Dance section ── */}
+              <div>
+                <div className="flex items-center gap-2 mb-3 px-1">
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-sage-400">Dance</span>
+                  <div className="flex-1 h-px bg-sage-200" />
+                </div>
+                <div className="flex lg:grid lg:grid-cols-2 gap-3 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0">
+                  {workshops.filter((w) => w.category === 'Dance').map((w) => (
+                    <PosterButton key={w.id} w={w} activeId={activeId} setActiveId={setActiveId} />
+                  ))}
+                </div>
+              </div>
             </aside>
 
             {/* RIGHT: Detail panel */}
-            <div className="flex-1 min-w-0">
+            <div className="flex-1 min-w-0 lg:sticky lg:top-28">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={active.id}
@@ -444,6 +616,31 @@ export default function Explore() {
                       ))}
                     </ul>
                   </div>
+
+                  {categoryPricing[active.category] && (
+                    <div className="mb-6">
+                      <h3 className="font-serif text-2xl text-sage-900 mb-4">Pricing</h3>
+                      <ul className="space-y-3">
+                        {categoryPricing[active.category].map((price, i) => (
+                          <motion.li
+                            key={price}
+                            initial={{ opacity: 0, x: 16 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.08 + i * 0.07 }}
+                            className="flex items-start gap-3"
+                          >
+                            <span
+                              className="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center mt-0.5"
+                              style={{ backgroundColor: active.color + '30' }}
+                            >
+                              <ArrowRight size={12} style={{ color: active.color }} />
+                            </span>
+                            <span className="text-sage-700 text-sm leading-relaxed">{price}</span>
+                          </motion.li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
 
                   {/* CTA buttons */}
                   <div className="flex flex-col sm:flex-row gap-4 mb-0">

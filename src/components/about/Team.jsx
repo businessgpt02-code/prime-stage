@@ -4,73 +4,61 @@ import { motion, AnimatePresence } from 'framer-motion';
 const teamMembers = [
   {
     name: "Abduljaleel",
-    role: "CEO and Founder",
     category: "leadership",
     image: "/team/1.png"
   },
   {
     name: "Munzer Mustafa",
-    role: "Creative Director / DOP / Choreographer",
     category: "creative",
     image: "/team/2.png"
   },
   {
     name: "Ashwin Unni",
-    role: "Creative Director",
     category: "creative",
     image: "/team/3.png"
   },
   {
     name: "Anuroop Ajith",
-    role: "DOP",
     category: "creative",
     image: "/team/4.png"
   },
   {
     name: "Riya Rachel Jacob",
-    role: "Choreographer",
     category: "creative",
     image: "/team/5.png"
   },
   {
     name: "Malita",
-    role: "Fashion Designer",
     category: "specialist",
     image: "/team/6.png"
   },
   {
     name: "Parveen Kasim",
-    role: "Operations Manager",
     category: "operations",
     image: "/team/7.png"
   },
   {
     name: "Devika Jayalakshmi",
-    role: "Operations Manager",
     category: "operations",
     image: "/team/8.png"
   },
   {
     name: "Sohan Vallabhan",
-    role: "Operations Manager",
     category: "operations",
     image: "/team/9.png"
   },
   {
     name: "Gohan Vallabhan",
-    role: "Operations Manager",
     category: "operations",
     image: "/team/ten.png"
   },
   {
-    name: "Aosa",
-    role: "Operations Manager",
+    name: "Aqsa",
     category: "operations",
     image: "/team/11.png"
   },
   {
     name: "Mariam George",
-    role: "Influencer",
     category: "specialist",
     image: "/team/12.png"
   }
@@ -187,9 +175,6 @@ const Team = () => {
                   <h3 className="font-serif text-2xl text-sage-900 mb-1 group-hover:text-sage-700 transition-colors duration-300">
                     {member.name}
                   </h3>
-                  <p className="text-sm text-sage-600">
-                    {member.role}
-                  </p>
                 </div>
               </motion.div>
             ))}

@@ -40,7 +40,7 @@ const ScrollToTop = () => {
     <>
       {/* WhatsApp Floating Button */}
       <motion.a
-        href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
+        href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, scale: 0.8 }}

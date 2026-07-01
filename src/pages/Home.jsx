@@ -60,7 +60,7 @@ const Home = () => {
           "name": "Prime Stage DXB",
           "description": "A wellness and creative hub in Dubai offering music production, art workshops, dance classes, sound healing, and yoga.",
           "url": "https://primestagedxb.com",
-          "telephone": "+971543867889",
+          "telephone": "+971585926856",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Al Ghazal Mall",
@@ -129,7 +129,7 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center items-center"
           >
-            <a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class" target="_blank" rel="noopener noreferrer" className="w-full sm:w-52">
+            <a href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class" target="_blank" rel="noopener noreferrer" className="w-full sm:w-52">
               <Button variant="primary" className="w-full bg-[#7A8F7B] hover:bg-[#A7B8A5] border-2 border-transparent">Book a Session</Button>
             </a>
             <Link to="/gallery" className="w-full sm:w-52">
@@ -239,7 +239,7 @@ const Home = () => {
                   ))}
                 </ul>
                 
-                <a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class" target="_blank" rel="noopener noreferrer" className="w-full mt-auto">
+                <a href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class" target="_blank" rel="noopener noreferrer" className="w-full mt-auto">
                   <Button variant="primary" className="w-full bg-[#7A8F7B] hover:bg-[#A7B8A5] border-2 border-transparent text-[#F5EFE7]">
                     Book Now
                   </Button>
@@ -505,12 +505,12 @@ const Home = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
           >
-            <a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class" target="_blank" rel="noopener noreferrer">
               <Button variant="primary" className="text-base px-10 py-4 bg-[#7A8F7B] hover:bg-[#A7B8A5] border-2 border-transparent text-[#F5EFE7]">
                 Book Your First Session
               </Button>
             </a>
-            <a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" className="text-base px-10 py-4 border-2 border-[#E8DDCF] text-[#F5EFE7] hover:bg-[#7A8F7B] hover:border-[#7A8F7B] hover:text-[#F5EFE7]">
                 View All Classes
               </Button>

@@ -345,7 +345,7 @@ const About = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
           >
-            <a href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20private%20session" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20private%20session" target="_blank" rel="noopener noreferrer">
               <Button variant="primary" className="text-base px-10 py-4 bg-[#7A8F7B] hover:bg-[#A7B8A5] border-2 border-transparent text-[#F5EFE7]">
                 Book a Private Session
               </Button>

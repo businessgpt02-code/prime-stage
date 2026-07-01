@@ -33,7 +33,7 @@ const workshops = [
       "Flexible batches available for beginners.",
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20DJ%20Class',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20DJ%20Class',
   },
   {
     id: 'production',
@@ -54,7 +54,7 @@ const workshops = [
       "Beginner-friendly batches available.",
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20Music%20Production%20session',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20Music%20Production%20session',
   },
   {
     id: 'acrylic',
@@ -75,7 +75,7 @@ const workshops = [
       "Beginner Friendly Sessions",
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Acrylic%20Painting%20workshop',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Acrylic%20Painting%20workshop',
   },
   {
     id: 'ceramic',
@@ -96,7 +96,7 @@ const workshops = [
       "No Prior Experience Required",
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Ceramic%20Art%20workshop',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Ceramic%20Art%20workshop',
   },
   {
     id: 'paper-mache',
@@ -117,7 +117,7 @@ const workshops = [
       "Beginner Friendly Sessions",
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Paper%20Mache%20workshop',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Paper%20Mache%20workshop',
   },
   {
     id: 'thread',
@@ -138,7 +138,7 @@ const workshops = [
       "Suitable for Beginners & All Age Groups",
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Thread%20Art%20workshop',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Thread%20Art%20workshop',
   },
   {
     id: 'texture',
@@ -159,7 +159,7 @@ const workshops = [
       "Suitable for Beginners & Creatives",
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Texture%20Art%20workshop',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Texture%20Art%20workshop',
   },
   {
     id: 'string-art',
@@ -180,7 +180,7 @@ const workshops = [
       "Beginner Friendly Sessions",
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20String%20Art%20workshop',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20String%20Art%20workshop',
   },
   // ── Dance workshops ──
   {
@@ -202,7 +202,7 @@ const workshops = [
       'Thu: 8 PM – 9 PM',
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Hip-Hop%20Advanced%20class',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Hip-Hop%20Advanced%20class',
   },
   {
     id: 'bollywood',
@@ -224,7 +224,7 @@ const workshops = [
       'Thu: 7 PM – 8 PM',
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Bollywood%20Dance%20class',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Bollywood%20Dance%20class',
   },
   {
     id: 'hiphop-beginner',
@@ -246,7 +246,7 @@ const workshops = [
       'Friday: 7 PM – 8 PM',
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Adult%20Hip-Hop%20Beginner%20class',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Adult%20Hip-Hop%20Beginner%20class',
   },
   {
     id: 'kids-hiphop-1',
@@ -267,7 +267,7 @@ const workshops = [
       'Friday: 6 PM – 7 PM',
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20Kids%20Hip-Hop%20I',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20Kids%20Hip-Hop%20I',
   },
   {
     id: 'kids-hiphop-2',
@@ -289,7 +289,7 @@ const workshops = [
       'Friday: 6 PM – 7 PM',
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20Kids%20Hip-Hop%20II',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20Kids%20Hip-Hop%20II',
   },
   {
     id: 'jive',
@@ -310,7 +310,7 @@ const workshops = [
       'Saturday: 4 PM – 5 PM',
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Jive%20class',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Jive%20class',
   },
   {
     id: 'afro-dance',
@@ -331,7 +331,7 @@ const workshops = [
       'Friday: 8 PM – 9 PM',
     ],
     whatsapp:
-      'https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Afro%20Dance%20class',
+      'https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20the%20Afro%20Dance%20class',
   },
 ];
 
@@ -478,7 +478,7 @@ export default function Explore() {
                 </Button>
               </a>
               <a
-                href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
+                href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-52"

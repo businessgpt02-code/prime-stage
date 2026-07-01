@@ -28,7 +28,7 @@ const jsonLdContactPage = {
     description:
       "Dubai's premier creative and wellness studio offering music production, DJ courses, art workshops, dance classes, yoga, meditation, and sound healing.",
     url: 'https://primestagedxb.com',
-    telephone: '+971543867889',
+    telephone: '+971585926856',
     email: 'Pr@primestagedxb.com',
     image: 'https://primestagedxb.com/logo.png',
     logo: { '@type': 'ImageObject', url: 'https://primestagedxb.com/logo.png' },
@@ -54,7 +54,7 @@ const jsonLdContactPage = {
     sameAs: ['https://www.instagram.com/primestagedxb'],
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+971543867889',
+      telephone: '+971585926856',
       contactType: 'customer service',
       availableLanguage: ['English', 'Arabic'],
       areaServed: 'AE',
@@ -89,7 +89,7 @@ const jsonLdFAQ = {
       name: 'How do I book a music production class at Prime Stage DXB in Dubai?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'You can book a music production, DJ, art, dance, yoga or sound healing class at Prime Stage DXB by filling out our contact form, calling +971 54 386 7889, or messaging us on WhatsApp.',
+        text: 'You can book a music production, DJ, art, dance, yoga or sound healing class at Prime Stage DXB by filling out our contact form, calling +971 58 592 6856, or messaging us on WhatsApp.',
       },
     },
     {
@@ -246,7 +246,7 @@ const Contact = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             >
               <a
-                href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
+                href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-52"
@@ -296,7 +296,7 @@ const Contact = () => {
               >
                 <meta itemProp="name"      content="Prime Stage DXB" />
                 <meta itemProp="url"       content="https://primestagedxb.com" />
-                <meta itemProp="telephone" content="+971543867889" />
+                <meta itemProp="telephone" content="+971585926856" />
                 <meta itemProp="email"     content="Pr@primestagedxb.com" />
 
                 <h2 className="font-serif text-3xl text-sage-900 mb-6">Visit Our Space</h2>
@@ -345,12 +345,12 @@ const Contact = () => {
                       <Phone className="mx-auto text-sage-700 mb-3" size={24} aria-hidden="true" />
                       <h3 className="font-bold text-sage-900 mb-1">Call Us</h3>
                       <a
-                        href="tel:+971543867889"
+                        href="tel:+971585926856"
                         className="text-sage-600 text-sm hover:text-sage-800 transition-colors"
                         itemProp="telephone"
-                        aria-label="Call Prime Stage DXB at +971 54 386 7889"
+                        aria-label="Call Prime Stage DXB at +971 58 592 6856"
                       >
-                        +971 54 386 7889
+                        +971 58 592 6856
                       </a>
                     </Card>
                     <Card className="p-6 flex-1 text-center" hover={true}>
@@ -370,7 +370,7 @@ const Contact = () => {
 
                 {/* WhatsApp CTA */}
                 <a
-                  href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
+                  href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Chat with Prime Stage DXB on WhatsApp to book a class or event in Dubai"
@@ -440,7 +440,7 @@ const Contact = () => {
                       name="phone"
                       autoComplete="tel"
                       className="w-full bg-beige-100 border border-beige-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-sage-400 focus:bg-beige-50 transition-colors"
-                      placeholder="+971 50 000 0000"
+                      placeholder="+971 58 592 6856"
                     />
                   </div>
 

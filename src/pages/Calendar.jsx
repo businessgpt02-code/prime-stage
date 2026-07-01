@@ -39,7 +39,7 @@ const Calendar = () => {
 
   const handleBook = (eventTitle) => {
     const message = encodeURIComponent(`Hi Prime Stage DXB, I'd like to book a spot for ${eventTitle}`);
-    window.open(`https://wa.me/971543867889?text=${message}`, '_blank');
+    window.open(`https://wa.me/971585926856?text=${message}`, '_blank');
   };
 
   return (

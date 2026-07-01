@@ -53,7 +53,7 @@ const jsonLdLocalBusiness = {
   description:
     'Dubai\'s premier creative and wellness studio offering music production, DJ courses, art workshops, dance classes, yoga, meditation, and sound healing.',
   url: 'https://primestagedxb.com',
-  telephone: '+971543867889',
+  telephone: '+971585926856',
   image: 'https://primestagedxb.com/logo.png',
   address: {
     '@type': 'PostalAddress',
@@ -241,7 +241,7 @@ const Gallery = () => {
                 </Button>
               </a>
               <a
-                href="https://wa.me/971543867889?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
+                href="https://wa.me/971585926856?text=Hi%20Prime%20Stage%20DXB%2C%20I%27d%20like%20to%20book%20a%20class"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-52"
